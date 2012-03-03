@@ -1,0 +1,106 @@
+/*comments like WOOOOOAAAAHHHHH*/
+/*no links yet, but they'll come*/
+a{
+	color:#fbe288;
+	text-decoration: none;
+}
+a:hover {
+	color: #ed9b51;
+}
+body {
+	background:#10171d;
+	overflow:auto;
+	height:100%;
+	width:auto;
+	margin:0px;
+    font-family: 'nice font', Helvetica, Arial;
+	font-style:normal;
+    font-size:15px;
+    color:#bed7c1;
+	text-align:left;
+	line-height:125%;
+}
+#wrapper {
+	min-width:960px;
+	max-width:1280px;
+	position:relative;
+	height:100%
+}
+#logo {
+	cursor:pointer;
+}
+
+#tree {
+	position:absolute;
+	top:0px;
+	right:860px;
+}
+
+#content {
+	position:absolute;
+	top:0px;
+	right:15px;
+	width:850px;
+}
+
+#leftcol {
+	padding:0px 10px;
+	float:left;
+	top:0px;
+	right:830px;
+	width:100px;
+}
+
+.links{
+	font-family: 'Britannic Bold', 'Poller One', Helvetica, Arial;
+	font-size:18px;
+	line-height:140%;
+}
+
+#sociallinks{
+	margin-top:30px;
+}
+#maincol {
+	width:700px;
+	padding:0px 10px;
+	float:left;
+}
+
+#maincol img {
+	margin-left:25px;
+	display:block;
+}
+
+h1 {
+	font-size:22px;
+	color:#ed9b51;
+}
+h2 {
+	font-size:18px;
+}
+h3 {
+	font-size:16px;
+}
+
+#about {
+	display:none;
+}
+#members {
+	display:none;
+}
+#music {
+	display:none;
+}
+#audition {
+	display:none;
+}
+#shows {
+	display:none;
+}
+#contact {
+	display:none;
+}
+
+
+
+
