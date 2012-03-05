@@ -9,7 +9,7 @@ a:hover {
 }
 body {
 	background:#10171d;
-	overflow:auto;
+	overflow:hidden;
 	height:100%;
 	width:auto;
 	margin:0px;
@@ -43,7 +43,7 @@ body {
 	width:850px;
 }
 
-#leftcol {
+#navcol {
 	padding:0px 10px;
 	float:left;
 	top:0px;
@@ -51,7 +51,7 @@ body {
 	width:100px;
 }
 
-.links{
+.nav{
 	font-family: 'Britannic Bold', 'Poller One', Helvetica, Arial;
 	font-size:18px;
 	line-height:140%;
@@ -60,15 +60,26 @@ body {
 #sociallinks{
 	margin-top:30px;
 }
-#maincol {
+#panel_container {
 	width:700px;
+	height:800px;
 	padding:0px 10px;
 	float:left;
 }
 
-#maincol img {
+#panel_container img {
 	margin-left:25px;
 	display:block;
+}
+
+.panel{
+    width:700px;
+	height:800px;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    box-sizing:border-box;
+
+    padding:20px;
 }
 
 h1 {
@@ -81,26 +92,6 @@ h2 {
 h3 {
 	font-size:16px;
 }
-
-#about {
-	display:none;
-}
-#members {
-	display:none;
-}
-#music {
-	display:none;
-}
-#audition {
-	display:none;
-}
-#shows {
-	display:none;
-}
-#contact {
-	display:none;
-}
-
 
 
 
