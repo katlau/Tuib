@@ -15,7 +15,7 @@ body {
 	margin:0px;
     font-family: 'nice font', Helvetica, Arial;
 	font-style:normal;
-    font-size:15px;
+    font-size:16px;
     color:#bed7c1;
 	text-align:left;
 	line-height:125%;
@@ -68,7 +68,7 @@ h4 {
 
 .nav{
 	font-family: 'Britannic Bold', 'Poller One', Helvetica, Arial;
-	font-size:18px;
+	font-size:20px;
 	line-height:140%;
 }
 
@@ -82,34 +82,171 @@ h4 {
 	float:left;
 }
 
-#panel_container img {
-	margin-left:25px;
-	display:block;
-}
-
 .panel{
     width:700px;
 	height:800px;
-    -moz-box-sizing:border-box; /* Firefox */
-    -webkit-box-sizing:border-box; /* Safari */
-    box-sizing:border-box;
+	overflow-y:hidden;
 }
 #homeupdates {
-	width:400px;
+	width:450px;
 	height:100px;
-	margin-left:auto;
-	margin-right:auto;
+	margin:15px auto 15px auto;
 	text-align:center;
-	border:2px solid #bed7c1;
 	padding:0px 15px 15px 15px;
+	border:2px solid #bed7c1;
 }
 
-.events, .contactbox {
-	width:300px;
-	margin:15px;
-	height:auto;
-	text-align:center;
-	border:2px solid #bed7c1;
-	padding: 15px;
+#welcomeslide {
+	margin-left:50px;
 }
+
+#aboutpic1 {
+	float:left;
+	padding:15px;
+}
+
+#memberspic1 {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#members_photo {
+	position:relative;
+}
+
+.face {
+	position:absolute;
+	width:40px;
+	height:40px;
+	list-style-type:none;
+}
+
+.face:hover {
+	border:1px solid rgba(100, 100, 100, 0.6);
+}
+
+#biophoto {
+	float:left;
+	margin-left:42px;
+	margin-right:10px;
+	border:2px solid white;
+	display:none;
+}
+
+#bio {
+	padding:5px 15px 15px 15px;
+}
+
+#leslie {
+	left:145px;
+	top:64px;
+}
+
+#raph {
+	left:195px;
+	top:64px;
+}
+
+#gordon {
+	left:278px;
+	top:52px;
+}
+
+#jacob {
+	left:323px;
+	top:51px;
+}
+
+#cuchulain {
+	left:369px;
+	top:71px;
+}
+
+#wendy {
+	left:440px;
+	top:71px;
+}
+
+#tommy {
+	left:446px;
+	top:27px;
+}
+
+#ashley {
+	left:505px;
+	top:47px;
+}
+
+#olivia {
+	left:552px;
+	top:77px;
+}
+
+#jenner {
+	left:571px;
+	top:33px;
+}
+
+#greta {
+	left:620px;
+	top:58px;
+}
+
+#ben {
+	left:212px;
+	top:172px;
+}
+
+#hannah {
+	left:291px;
+	top:170px;
+}
+
+#abby {
+	left:413px;
+	top:216px;
+}
+
+#natey {
+	left:503px;
+	top:187px;
+}
+
+#lauren {
+	left:587px;
+	top:196px;
+}
+
+#musicpic1 {
+	float:left;
+	padding:15px;
+}
+
+#musicpic2 {
+	float:right;
+	padding:15px;
+}
+
+#contactlist {
+	list-style-type:none;
+}
+
+#contactlist li {
+	clear:left;
+}
+
+.contactpic {
+	float:left;
+	margin-right:15px;
+	margin-bottom:15px;
+	border:2px solid white;
+	clear:left;
+}
+
+.contactinfo {
+	font-size:;
+	color:;
+}
+
+
 

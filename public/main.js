@@ -20,6 +20,13 @@ $(document).ready(function(){
         //change to that panel
         changePanel( pLink );      
     }); 
+
+	$('.face').hover(function(){
+		var name = $(this).attr('id');
+		$('#bio').text( BIOS[name] );
+		$('#biophoto').attr('src', './images/bios/' + name + '.jpg').show();
+	});
+
 });
 
 function changePanel( pname ){
@@ -27,7 +34,7 @@ function changePanel( pname ){
     var pages = ['home', 'about', 'members', 'music', 'audition', 'shows', 'contact'];
     
     //the height of any panel
-    var pheight = $('.panel').first().outerHeight();
+    var pheight = $('.panel').first().height();
  
     //the index of the panel we want
     var i = pages.indexOf( pname );
