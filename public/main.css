@@ -13,7 +13,7 @@ body {
 	height:100%;
 	width:auto;
 	margin:0px;
-    font-family: 'nice font', Helvetica, Arial;
+    font-family: Arial, Helvetica;
 	font-style:normal;
     font-size:16px;
     color:#bed7c1;
@@ -38,7 +38,7 @@ h4 {
 	min-width:960px;
 	max-width:1280px;
 	position:relative;
-	height:100%
+	height:100%;
 }
 #logo {
 	cursor:pointer;
@@ -135,86 +135,87 @@ h4 {
 
 #bio {
 	padding:5px 15px 15px 15px;
+	font-size:13px;
 }
 
 #leslie {
-	left:145px;
-	top:64px;
+	left:90px;
+	top:54px;
 }
 
 #raph {
-	left:195px;
-	top:64px;
+	left:140px;
+	top:54px;
 }
 
 #gordon {
-	left:278px;
-	top:52px;
+	left:223px;
+	top:42px;
 }
 
 #jacob {
-	left:323px;
-	top:51px;
+	left:268px;
+	top:41px;
 }
 
 #cuchulain {
-	left:369px;
-	top:71px;
+	left:314px;
+	top:61px;
 }
 
 #wendy {
-	left:440px;
-	top:71px;
+	left:385px;
+	top:61px;
 }
 
 #tommy {
-	left:446px;
-	top:27px;
+	left:391px;
+	top:17px;
 }
 
 #ashley {
-	left:505px;
-	top:47px;
+	left:450px;
+	top:37px;
 }
 
 #olivia {
-	left:552px;
-	top:77px;
+	left:497px;
+	top:67px;
 }
 
 #jenner {
-	left:571px;
-	top:33px;
+	left:516px;
+	top:23px;
 }
 
 #greta {
-	left:620px;
-	top:58px;
+	left:565px;
+	top:48px;
 }
 
 #ben {
-	left:212px;
-	top:172px;
+	left:157px;
+	top:162px;
 }
 
 #hannah {
-	left:291px;
-	top:170px;
+	left:236px;
+	top:160px;
 }
 
 #abby {
-	left:413px;
-	top:216px;
+	left:358px;
+	top:206px;
 }
 
 #natey {
-	left:503px;
-	top:187px;
+	left:448px;
+	top:177px;
 }
 
 #lauren {
-	left:587px;
-	top:196px;
+	left:532px;
+	top:186px;
 }
 
 #musicpic1 {
