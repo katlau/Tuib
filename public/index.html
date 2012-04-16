@@ -12,6 +12,7 @@
   <script src="./jquery.js" type="text/javascript"></script>
   <script src="./main.js" type="text/javascript"></script> 
 
+
 </head>
 <body>
 <div id="wrapper">
@@ -79,9 +80,30 @@
 			<img src="./images/group4.jpg" id="musicpic1" />
 			<p>TUIB has been playing American folk music since 1986. Our arrangements feature traditional folk instruments including mandolin, guitar, fiddle, harmonica, and banjo and four-part vocal harmonies that have, on occasion, made our mothers cry. We cover the music of a range of artists such as Bob Dylan, Crosby, Stills, Nash, and Young, Steven Foster, and Trampled by Turtles. In addition to these classics, TUIB will whip out the  occasional Irish folk tune or drinking shanty and may even tickle your fancy with a women's rights protest song from the American Industrial Revolution. We arrange a few songs each year to add to our repertoire. Listen to songs from our most recent albums below.</p>
 			<img src="./images/raphcharles.jpg" id="musicpic2" />
-			<a href="./music/bettydupree.mp3">Betty & Dupree (See What Tomorrow Brings)</a><br />
-			<a href="./music/toomuchofnothing.mp3">Too Much of Nothing</a><br />
-			<a href="./music/wagonwheel.mp3">Wagon Wheel</a><br />
+			<p>
+			<object type="application/x-shockwave-flash" data="./dewplayer/dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+			<param name="movie" value="./dewplayer/dewplayer.swf" />
+			<param name="flashvars" value="mp3=./dewplayer/mp3/bettydupree.mp3" />
+			<param name="wmode" value="transparent" />
+			</object><br />Betty & Dupree
+			</p>
+			
+			<p>
+			<object type="application/x-shockwave-flash" data="./dewplayer/dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+			<param name="movie" value="./dewplayer/dewplayer.swf" />
+			<param name="flashvars" value="mp3=./dewplayer/mp3/toomuchofnothing.mp3" />
+			<param name="wmode" value="transparent" />
+			</object><br />Too Much of Nothing
+			</p>
+			
+			<p>
+			<object type="application/x-shockwave-flash" data="./dewplayer/dewplayer.swf" width="200" height="20" id="dewplayer" name="dewplayer">
+			<param name="movie" value="./dewplayer/dewplayer.swf" />
+			<param name="flashvars" value="mp3=./dewplayer/mp3/wagonwheel.mp3" />
+			<param name="wmode" value="transparent" />
+			</object><br />Wagon Wheel
+			</p>
+			
 			<p>Interested in purchasing a TUIB album? <a href="#contact" class="selfref"> contact us!</a></p>
 			</div>
 
@@ -100,8 +122,9 @@
 			</div>
 
 			<div id="p_shows" class="panel"> 
-			Check out some footage of our live performances!
-			
+			<p>Check out some footage of our live performances!</p>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/videoseries?list=PL0082C5ACC944AC43&amp;hl=en_US" frameborder="0" allowfullscreen></iframe>
+			<p>Interested in booking Tuib for a performance? Click <a href="#contact" class="selfref">here</a>.</p>
 			</div>
  			
 			<div id="p_contact" class="panel"> 
@@ -148,7 +171,7 @@ var BIOS = {
 	'gordon' : 'Gordon Moseley grew up in the lovely rural hills of Poughkeepsie, New York.  When he was just three years old, he was kidnapped by Garry Kasparov and a she-wolf, who were partners in crime.  It is probably largely due to this that he became a chess master at the age of 13, and had founded Rome by age seven.  When he isn\'t playing chess with random strangers or arranging TUIB songs, you might find Gordon carefully rearranging a stack of books.  When asked what he\'s doing, he will explain that it\'s the only way he can charge his phone.',
 	'jacob' : 'Jacob Paul has a really bendy neck. He is going to look you straight in the face. He is going to grab your shoulder and ask you how you\'re doing. And you\'re going to tell him, because you trust any man who can legitimately pull off a vintage baseball cap and moon boots. With his everlasting arms, Jacob can strum a guitar and hug you at the same time. He\'ll sing you a sweet song, and it\'s going to make you feel really good. But it\'s just a distraction. He\'s just trying to put you in a headlock.',
 	'cuchulain' : 'Isn\'t going to do anything with that banana, thank you very much.',
-	'wendy' : 'Wenzy \"Wenzel\" DaWolf is known for first ordering the world famous \"Wenzel\" sandwich at the Yale fraternity/sandwich shop, Alpha Delta. She also invented those cool wolf t-shirts. Wenzel is deep like the deep end of a pool. She studies the present and is an acclaimed critic of historians. Wenzel famously wrote in her book, \"I\'m deep like the deep end,\" that \"Civilization is a stream with banks. The stream is sometimes filled with blood from people killing, stealing, shouting and doing the things historians usually record, while on the banks, unnoticed, people build homes, make love, raise children, sing songs, write poetry and even whittle statues. The story of civilization is the story of what happened on the banks. Historians are pessimists because they ignore the banks for the river.\" Wenzel also loves baby carrots. She is awesome, like baby carrots.',
+	'wendy' : 'Wenzy \"Wenzel\" DeWolf studies the present and is an acclaimed critic of historians. She famously wrote in her book, \"I\'m Deep Like the Deep End,\" that \"Civilization is a stream with banks. The stream is sometimes filled with blood from people killing, stealing, shouting and doing the things historians usually record, while on the banks, unnoticed, people build homes, make love, raise children, sing songs, write poetry and even whittle statues. The story of civilization is the story of what happened on the banks. Historians are pessimists because they ignore the banks for the river.\"',
 	'tommy' : 'Known around campus as \"that new stud in TUIB,\" TBaz\'s fiery red hair and guitar-picking agility will undoubtedly catch any audience member\'s attention. In his past life, Tommy was best known for discovering America. Although this was quite an accomplishment, he would not accept credit for his efforts. Humbly, he lived as a hermit in Southern Appalachia and mastered every instrument in the world. He joins TUIB this year to share with us not only his sensual bass notes and musical talent, but also his joyous and inevitably contagious smile. Watch out or you may fall under its spell...',
 	'ashley' : 'Ashley Dalton is a black belt in Karate, Jiu-Jitsu, Kung Fu, Judo, Thai Kwon Do, Muay Thai, Kickboxing, and being kind. Yes, she can kill you. With kindness. Or with her hands. After a long history of passionate affairs with many, many mountains, she is now happily married to a handsome Blue Ridge peak near her hometown. Her hobbies include hiking on her husband, dancing on her husband, frolicking with the various creatures that live on her husband, and of course, killing things with her hands and with kindness and bringing them back to life with song.',
 	'olivia' : 'Olivia swears she quit the Mafia when she got into Yale. That doesn\'t mean she\'s telling the truth - in fact, it is certainly a lie. Still in underground training, she is consistently busy at all the most \"convenient\" times and tries to hide her Italian accent but it often slips out. She hopes to be a member of the Commission one day - and let\'s be honest, she probably will. If they don\'t take her for her uncanny ability to hypnotize anyone that crosses her path, they will take her for her voice. Once you hear it, you\'ll understand.',
