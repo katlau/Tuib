@@ -6,7 +6,7 @@
     <trackList>
 
         <track>
-          <location>./mp3/bettydupree.mp3</location>
+          <location>file:///mp3/bettydupree.mp3</location>
           <creator>Tangled Up in Blue</creator>
           <album>Find a Job</album>
           <title>Betty & Dupree (See What Tomorrow Brings)</title>
