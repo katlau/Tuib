@@ -27,6 +27,7 @@ $(document).ready(function(){
 		$('#biophoto').attr('src', './images/bios/' + name + '.jpg').show();
 	});
 
+
 });
 
 function changePanel( pname ){
