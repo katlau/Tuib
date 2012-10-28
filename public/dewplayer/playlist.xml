@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <title>Tangled Up in Blue</title>
+    <image></image>
+
+    <trackList>
+
+        <track>
+          <location>file:///mp3/bettydupree.mp3</location>
+          <creator>Tangled Up in Blue</creator>
+          <album>Find a Job</album>
+          <title>Betty & Dupree (See What Tomorrow Brings)</title>
+          <duration></duration>
+          <image></image>
+          <info></info>
+        </track>
+        
+        <track>
+          <location>file:///mp3/toomuchofnothing.mp3</location>
+          <creator>Tangled Up in Blue</creator>
+          <album>Find a Job</album>
+          <title>Too Much of Nothing</title>
+          <annotation></annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+        </track>
+        
+        <track>
+          <location>file:///mp3/wagonwheel.mp3</location>
+          <creator>Tangled Up in Blue</creator>
+          <album>Find a Job</album>
+          <title>Wagon Wheel</title>
+          <annotation></annotation>
+          <duration></duration>
+          <image></image>
+          <info></info>
+        </track>
+
+    </trackList>
+</playlist>
